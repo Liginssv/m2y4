@@ -1,0 +1,37 @@
+@keyframes color-change {
+    0% {
+      color: rgba(0, 0, 0, 0.815);
+    }
+
+    25% {
+        color: rgba(66, 66, 66, 0.678);
+    }
+
+    45% {
+        color: rgba(47, 59, 70, 0.705);
+    }
+  
+    50% {
+      color: rgba(50, 88, 124, 0.815);
+    }
+
+    70% {
+        color: rgba(48, 116, 180, 0.822)
+    }
+  
+    100% {
+      color: rgba(3, 124, 236, 0.637);
+    }
+}
+
+h1 {
+    animation: color-change 3.96s;
+}
+
+body {
+    font-family: Andale Mono, monospace; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    background-color: #04233869; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+    
+}
